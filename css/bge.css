@@ -1,0 +1,55 @@
+{
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("https://www.itl.cat/pngfile/big/157-1571640_21-web-backgrounds-wallpapers-images-pictures-fond-d.jpg"); 
+  background-color: #cccccc;
+  padding: 20px;
+  font-family: Arial;
+}
+
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: none;
+}
+
+.sor {
+  margin: 8px -16px;
+}
+
+.sor,
+.sor > .oszlop {
+  padding: 8px;
+}
+
+.oszlop {
+  float: left;
+  width: 25%;
+}
+
+.sor:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.szovegresz {
+  background-color: white;
+  padding: 10px;
+}
+img {
+  float: right;
+}
+
+
+@media screen and (max-width: 600px) {
+  .oszlop {
+    width: 100%;
+  }
+}

@@ -1,0 +1,43 @@
+{
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("https://www.itl.cat/pngfile/big/157-1571640_21-web-backgrounds-wallpapers-images-pictures-fond-d.jpg"); 
+  background-color: #cccccc;
+  padding: 20px;
+  font-family: Arial;
+}
+
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.sor {
+  margin: 8px -16px;
+  padding: 8px;
+}
+
+.sor:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.kartya {
+  background-color: white;
+  padding: 10px;
+}
+.pont {
+  height: 25px;
+  width: 25px;
+  background-color: darkblue;
+  border-radius: 50%;
+  display: inline-block;
+

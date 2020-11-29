@@ -1,0 +1,58 @@
+{
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("https://www.itl.cat/pngfile/big/157-1571640_21-web-backgrounds-wallpapers-images-pictures-fond-d.jpg");
+  background-color: #cccccc;
+  padding: 20px;
+  font-family: Arial;
+}
+
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: none;
+}
+
+.sor2 {
+  margin: 8px -16px;
+}
+
+.sor2,
+.sor2 > .oszlop2 {
+  padding: 8px;
+}
+
+.oszlop2 {
+  float: left;
+  width: 25%;
+}
+
+.sor2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.szovegresz2 {
+  background-color: white;
+  padding: 10px;
+
+/*nem működő bekezdés, de ha kiveszem az alatta lévő sem működik:(
+*/
+@media screen and (max-width: 900px) {
+  .oszlop2 {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .oszlop2 {
+    width: 100%;
+  }
+}
