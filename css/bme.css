@@ -43,14 +43,6 @@ h1 {
   background-color: white;
   padding: 10px;
 
-/*nem működő bekezdés, de ha kiveszem az alatta lévő sem működik:(
-*/
-@media screen and (max-width: 900px) {
-  .oszlop2 {
-    width: 50%;
-  }
-}
-
 @media screen and (max-width: 600px) {
   .oszlop2 {
     width: 100%;
